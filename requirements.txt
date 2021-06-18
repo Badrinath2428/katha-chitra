@@ -49,8 +49,8 @@ termcolor==1.1.0
 toml==0.10.1
 tqdm==4.61.1
 urllib3==1.26.5
-virtualenv==20.0.29
-virtualenvwrapper-win==1.2.6
+#virtualenv==20.0.29
+#virtualenvwrapper-win==1.2.6
 Werkzeug==2.0.1
 wrapt==1.12.1
 gunicorn
