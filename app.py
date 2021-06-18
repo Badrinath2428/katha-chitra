@@ -11,6 +11,10 @@ from keras.preprocessing import image, sequence
 import cv2
 from keras.preprocessing.sequence import pad_sequences
 from tqdm import tqdm
+import os
+port = int(os.environ.get('PORT', 5000))
+app.run(host='0.0.0.0', port=port, debug=True)
+
 
 vocab = np.load('vocab.npy', allow_pickle=True)
 
